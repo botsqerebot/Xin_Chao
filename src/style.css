@@ -54,17 +54,17 @@
 }
 
 
-.fadeIn {
+.fadeIn-normal {
     animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
-@keyframes fadeIn {
+@keyframes fadeIn-normal {
     from {
         opacity: 0;
     }
 
     to {
-        opacity: 1;
+        opacity: 100;
     }
 }
 
